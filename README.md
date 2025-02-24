@@ -19,13 +19,13 @@ This dataset was used to train a YOLOv7 network for glass facade detection, cont
 <body>
     
     
-    - cd darknet
+    ~ cd darknet
 
-    - mkdir darkbuild
+    ~ mkdir darkbuild
 
-    - cmake ..
+    ~ cmake ..
 
-    - make
+    ~ make
 
 </body>
 </html>
