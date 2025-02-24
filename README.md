@@ -14,10 +14,10 @@ This dataset was used to train a YOLOv7 network for glass facade detection, cont
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo de Copiar Código</title>
+    
 </head>
 <body>
-    <h2>Exemplo de Código com Botão de Copiar</h2>
+    
     
     - cd darknet
 
