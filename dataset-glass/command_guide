@@ -1,0 +1,19 @@
+./darknet detector train /home/user/folder_project/file.data /home/user/folder_project/yolov7.cfg /home/user/folder_project/yolov7.weights
+
+If you want to train from the beginning, then use flag in the end of training command: -clear 
+
+To know the accuracy, use:
+
+./darknet detector map /home/user/folder_project/file.data /home/user/folder_project/yolov7.cfg /home/user/folder_project/backup-weights/yolov7_last.weights
+
+To perform the inference, use:
+
+python3 darknet_images.py\ 
+--weights ./home/user/folder_project/backup-weights/yolov7_last.weights\
+--data_file ./home/user/folder_project/file.data\
+--config_file ./home/user/folder_project/yolov7.cfg\
+--tresh 0.5\
+--input ./home/user/folder_project/folder_train/image.jpg\
+--ext_output
+
+You can find this code within the Darknet project as well.
