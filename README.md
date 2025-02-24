@@ -78,7 +78,7 @@ This dataset was used to train a YOLOv7 network for glass facade detection, cont
 </head>
 <body>
 
-     make ..
+     make
     
 </body>
 </html>
@@ -178,7 +178,7 @@ To verify the **accuracy**, use:
 
 
 
-To perform the **inference**, exit the "dark" subfolder and return to the darknet folder, use:
+To perform the **inference**, exit the "darkbuild" subfolder and return to the darknet folder, use:
 
 <!DOCTYPE html>
 <html lang="pt-br">
