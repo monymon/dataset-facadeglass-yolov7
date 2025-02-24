@@ -17,6 +17,7 @@ This dataset was used to train a YOLOv7 network for glass facade detection, cont
     
 </head>
 <body>
+
     ~ cd darknet
 
     ~ mkdir darkbuild
@@ -24,6 +25,7 @@ This dataset was used to train a YOLOv7 network for glass facade detection, cont
     ~ cmake ..
 
     ~ make
+    
 </body>
 </html>
 
