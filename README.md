@@ -19,36 +19,18 @@ This dataset was used to train a YOLOv7 network for glass facade detection, cont
 <body>
     <h2>Exemplo de Código com Botão de Copiar</h2>
     
-    <textarea id="code" rows="10" cols="50">
-    # Seu código aqui
-    print("Olá, mundo!")
-    </textarea>
+    - cd darknet
 
-    <br>
-    <button onclick="copyText()">Copiar</button>
+    - mkdir darkbuild
 
-    <script>
-        function copyText() {
-            var copyText = document.getElementById("code");
-            copyText.select();
-            document.execCommand("copy");
-            alert("Código copiado para a área de transferência");
-        }
-    </script>
+    - cmake ..
+
+    - make
+
 </body>
 </html>
 
 
-
-
-
-<pre>```cd darknet``` </pre>
-
-mkdir darkbuild```
-
-''' cmake ..'''
-
-''' make'''
 
 ## Folder organization
 
