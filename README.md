@@ -17,7 +17,7 @@ This dataset was used to train a YOLOv7 network for glass facade detection, cont
 </head>
 <body>
 
-    git clone https://github.com/AlexeyAB/darknet
+     git clone https://github.com/AlexeyAB/darknet
     
 </body>
 </html>
@@ -33,7 +33,7 @@ This dataset was used to train a YOLOv7 network for glass facade detection, cont
 </head>
 <body>
 
-    cd darknet
+     cd darknet
     
 </body>
 </html>
@@ -48,7 +48,7 @@ This dataset was used to train a YOLOv7 network for glass facade detection, cont
 </head>
 <body>
 
-    mkdir darkbuild
+     mkdir darkbuild
     
 </body>
 </html>
@@ -107,11 +107,11 @@ Inside the training and testing folders, there should be the images and their re
 
 - You can find the .cfg and .weights files to perform your training on the page: [Official YOLOv7](https://github.com/pjreddie/darknet/issues/2557)
 
-- You can find an example of the .data file at: [Darknet Project}(https://github.com/AlexeyAB/darknet/blob/9ade741db91fd3d796d2abb0c9889b10943ea28a/build/darknet/x64/cfg/coco.data#L4)
+- You can also find an example of the .data file at: [Darknet Project](https://github.com/AlexeyAB/darknet/blob/9ade741db91fd3d796d2abb0c9889b10943ea28a/build/darknet/x64/cfg/coco.data#L4)
 
 ## Network training commands
 
-To start the network training, use the following command:
+To start the network **training**, use the following command:
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -160,7 +160,7 @@ To start the network training, use the following command:
 
 If you want to train from the beginning, then use flag in the end of training command: -clear 
 
-To know the accuracy, use:
+To verify the **accuracy**, use:
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -178,7 +178,7 @@ To know the accuracy, use:
 
 
 
-To perform the inference, exit the "dark" subfolder and return to the darknet folder, use:
+To perform the **inference**, exit the "dark" subfolder and return to the darknet folder, use:
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -202,5 +202,5 @@ To perform the inference, exit the "dark" subfolder and return to the darknet fo
 </html>
 
 
-You can find this code at [Darknet Project](https://github.com/AlexeyAB/darknet/blob/9ade741db91fd3d796d2abb0c9889b10943ea28a/darknet_images.py#L85)
+You can also find this code at [Darknet Project](https://github.com/AlexeyAB/darknet/blob/9ade741db91fd3d796d2abb0c9889b10943ea28a/darknet_images.py#L85).
 
