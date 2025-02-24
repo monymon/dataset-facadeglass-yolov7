@@ -6,10 +6,7 @@ This dataset was used to train a YOLOv7 network for glass facade detection, cont
 
 ## Step-by-step on how to use this dataset in Linux
 
-- Download the Darknect project in:  [Darknet](https://github.com/AlexeyAB/darknet) or use 
-
-
-
+- Download the Darknect project in:  [Darknet](https://github.com/AlexeyAB/darknet) or use git clone https://github.com/AlexeyAB/darknet on terminal linux
 
 
 <!DOCTYPE html>
