@@ -9,17 +9,7 @@ This dataset was used to train a YOLOv7 network for glass facade detection, cont
 - Download the Darknect project in:  [Darknet](https://github.com/AlexeyAB/darknet) or use 
 
 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-</head>
-<body>
-    git clone https://github.com/AlexeyAB/darknet 
-</body>
-</html>
+
 
 
 <!DOCTYPE html>
